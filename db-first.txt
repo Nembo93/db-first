@@ -1,0 +1,21 @@
+Nome tabella : Auto usate
+
+id                         TINYINT UNIQUE NOT NULL
+Marca                      VARCHAR(30) NOT NULL
+Modello                    VARCHAR(50) NOT NULL
+Anno_costruzione           YEAR NOT NULL
+Anno_immatricolazione      YEAR NOT NULL
+Numero_proprietari	   SMALLINTE NOT NULL
+Chilometri                 MEDIUMINT NOT NULL
+Cambio_manuale             TINYINT NOT NULL
+Cambio_automatico          TINYINT NOT NULL
+Potenza(cv)                MEDIUMINT NOT NULL
+Carburante_benzina         TINYINT NOT NULL
+Carburante_metano          TINYINT NOT NULL
+Carburante_gpl             TINYINT NOT NULL
+Carburante_ibrida          TINYINT NOT NULL
+5_porte                    TINYINT NOT NULL
+3_porte                    TINYINT NOT NULL
+Prezzo                     DOUBLE(10,2) NOT NULL
+Valuta                     VARCHAR (30) NOT NULL
+Venditore                  VARCHAR (30) NOT NULL
